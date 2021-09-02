@@ -1,5 +1,5 @@
 {
-  "name": "passport-saml",
+  "name": "@rizz360/passport-saml",
   "version": "3.0.1",
   "description": "SAML 2.0 authentication strategy for Passport",
   "keywords": [
