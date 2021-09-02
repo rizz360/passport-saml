@@ -43,7 +43,10 @@ export abstract class AbstractStrategy extends PassportStrategy {
     this._passReqToCallback = !!options.passReqToCallback;
   }
 
-  authenticate(req: RequestWithUser, options: AuthenticateOptions): void {
+  authenticate(
+    req: RequestWithUser,
+    options: AuthenticateOptions = { samlFallback: "login-request" }
+  ): void {
     if (this._saml == null) {
       throw new Error("Can't get authenticate without a SAML provider defined.");
     }

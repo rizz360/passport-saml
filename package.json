@@ -1,6 +1,6 @@
 {
   "name": "passport-saml",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "SAML 2.0 authentication strategy for Passport",
   "keywords": [
     "saml",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-saml/passport-saml.git"
+    "url": "https://github.com/rizz360/passport-saml.git"
   },
   "license": "MIT",
   "author": {
