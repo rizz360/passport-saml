@@ -1,6 +1,6 @@
 {
   "name": "@rizz360/passport-saml",
-  "version": "3.0.1",
+  "version": "3.0.0",
   "description": "SAML 2.0 authentication strategy for Passport",
   "keywords": [
     "saml",
@@ -17,6 +17,9 @@
     "name": "Henri Bergius",
     "email": "henri.bergius@iki.fi",
     "url": "http://bergie.iki.fi"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "contributors": [
     "Michael Bosworth",
